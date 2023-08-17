@@ -1,0 +1,25 @@
+
+
+.SectionText{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../../public/images/block1.jpg');
+    background-repeat: no-repeat;
+    background-size: 60% auto ;
+    background-position: right;
+    color: var(--basefontcolor);
+    
+}
+.ButtonWhite{
+    margin-top: 4%;
+    display: block;
+    width: 25%;
+}
+.header{
+    font-family: var(--fIstok);
+    text-transform: uppercase;
+    font-size: clamp(50px, 10vw, 200px);
+}

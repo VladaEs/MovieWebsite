@@ -1,0 +1,6 @@
+.Title{
+    color: var(--lightgreen);
+    font-family: var(--fRailvay);
+    font-size: clamp(30px, 5vw, 70px);
+    font-weight: 600;
+}

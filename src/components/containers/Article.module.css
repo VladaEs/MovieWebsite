@@ -1,0 +1,8 @@
+.article{
+        position: relative;
+        display: block;
+        width: 35%;
+        font-family: var(--fIstok);
+        font-size: clamp(15px, 1.3vw, 30px);
+        color: var(--basefontcolor);
+}

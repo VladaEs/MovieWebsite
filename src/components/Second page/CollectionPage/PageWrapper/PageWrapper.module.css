@@ -1,0 +1,11 @@
+.WrapperPage{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: var(--sidespace);
+    padding-right: var(--sidespace);
+    box-sizing: border-box;
+}

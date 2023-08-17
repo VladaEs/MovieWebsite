@@ -1,0 +1,93 @@
+.FullHeader{
+position: relative;
+display: block;
+
+}
+.HeaderWrapper{
+    position: relative;
+    color: var(--basefontcolor);
+    font-family: var(--fRailvay);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: var(--sidespace);
+    padding-right: var(--sidespace);
+
+}
+.brandName{
+
+    text-shadow: 0 0 20px var(--greenfont);
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.BurgerMenu{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    z-index: 200;
+    cursor: pointer;
+    right: var(--sidespace);
+}
+.BurgerMenu:hover .rowBurger::before{
+    animation-name: Burger;
+    animation-duration: .3s;
+    animation-delay: 0s;
+}
+.BurgerMenu:hover .rowBurger{
+    animation-name: Burger;
+    animation-duration: .5s;
+    animation-delay: .2s;
+}
+.BurgerMenu:hover .rowBurger::after{
+    animation-name: Burger;
+    animation-duration: .3s;
+    animation-delay: .1s;
+    
+    
+}
+
+@keyframes Burger {
+    0%{
+        background-color: #fff;
+        margin-left: -0px;
+    }
+    50%{
+        background-color: red;
+        margin-left: -20px;
+    }
+    100%{
+        margin-left: 0;
+        background-color: #fff;
+    }
+    
+}
+.rowBurger{
+
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+.rowBurger::before{
+    content:'';
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+.rowBurger::after{
+    transition-delay: .3s;
+    content:'';
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}

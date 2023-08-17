@@ -1,0 +1,23 @@
+.itemBox{
+    position: relative;
+    width: 15%;
+    min-width: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    border:2px solid #424242;
+    flex-direction: column;
+    gap: 5px;
+    font-family: var(--fIstok);
+    box-sizing: border-box;
+    
+    
+}
+.itemBox span{
+    padding-left: 5px;
+    
+}
+.itemBox .name{
+    color:var(--lightgreen);
+    font-size: 20px;
+    line-height: 18px;
+}

@@ -1,0 +1,10 @@
+.BlockWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    box-sizing: border-box;
+    padding-left: var(--sidespace);
+    padding-right: calc(var(--sidespace)) ;
+    margin-top: 15%;
+}

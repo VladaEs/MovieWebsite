@@ -1,0 +1,25 @@
+.buttonWhite{
+    background-color: transparent;
+    border:2px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    color: var(--basefontcolor);
+    font-family: var(--fRailvay);
+    font-size: clamp(15px, 2vw, 25px) ;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+    width: auto;
+}
+.buttonWhite:hover a {
+    color: var(--greenfont);
+}
+.buttonWhite:hover{
+    background-color: #fff;
+    
+}
+.buttonWhite a{
+    transition: .3s all ease-in-out;
+    text-decoration: none;
+    color:#fff;
+}
+

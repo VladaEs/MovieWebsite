@@ -1,0 +1,8 @@
+.collection{
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+}

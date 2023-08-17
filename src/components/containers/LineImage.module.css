@@ -1,0 +1,16 @@
+.ImageBG{
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 150px;
+    height: 30vw;
+    box-sizing: border-box;
+
+    
+    
+    background-repeat: no-repeat;
+    background-size: 100% auto ;
+    background-position: bottom;
+    
+    
+}

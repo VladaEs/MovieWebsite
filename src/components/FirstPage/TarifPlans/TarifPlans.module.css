@@ -1,0 +1,66 @@
+.blocksWrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tariff{
+    position: relative;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 28%;
+    
+    height: auto;
+    padding-top: var(--sidespace);
+    padding-left: calc(var(--sidespace) / 2);
+    padding-right: calc(var(--sidespace) / 2);
+    padding-bottom: var(--sidespace);
+    color:var(--basefontcolor);
+    box-sizing: border-box;
+}
+.title{
+    position: relative;
+    display: block;
+    font-family: var(--fIstok);
+    font-size: clamp(20px, 3vw, 50px);
+    text-align: center;
+    text-transform: uppercase;
+}
+.description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.LineDescription{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.LineDescription img{
+    width: 7%;
+    min-width: 15px;
+}
+.LineDescription span{
+    margin-left: 10px;
+    font-family: var(--fIstok);
+    font-size: clamp(15px, 1.3vw, 30px);
+    color: var(--basefontcolor);
+}
+.price{
+    position: relative;
+    display: block;
+    margin-top:50px;
+    font-family: var(--fIstok);
+    font-size: clamp(15px, 2.5vw, 35px);
+    
+}
+.button{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+}
